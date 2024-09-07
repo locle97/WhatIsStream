@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Text;
 
-string oilWellPath = "/home/lpl212757/Coding/Research/WhatIsStream/src/oil-well.txt";
+string oilWellPath = "oil-well.txt";
 string gasStationPath = "gas-station.txt";
 
 using FileStream oilWell = new FileStream(oilWellPath, FileMode.Open);
