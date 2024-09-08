@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Text;
+﻿using System.Text;
 
 // Declare paths of well and water tank
 string wellPath = "well.txt";

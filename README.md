@@ -9,6 +9,13 @@ Stream involes three fundamental operations:
 - Write bytes to stream
 - Modifying cursor on stream
 
+### Components
+
+- Stream:
+- Data:
+- Cursor (pointer):
+- Buffer:
+
 ### Analogy
 
 We can think the stream is like a glass tank of water, in there we can do various actions such as:
@@ -38,7 +45,7 @@ Streams are ideal for working with large or continuously generated data, like ne
 1. Stream has an internal cursor to track the current position of reading process. This cursor will move around and read your data.
 2. After moving the cursor to the target position using Seek(), we can read data byte-by-byte or using a buffer.
 
-![How the stream works](./docs/how-stream-works.png)
+![How the stream works](./docs/how-the-stream-works.gif)
 
 ## Copying water analogy
 
@@ -49,7 +56,7 @@ In this example, our missing is moving water (data) from well (source file) to w
 3. With each buffer (water) we can preprocessed for transforming data (filtering or add mineral to your water)
 4. Moving cursor and write buffer to targeted stream (water tank)
 
-![](./docs/stream-water-analogy.png)
+![](./docs/stream-water-analogy.gif)
 
 ## Q&A
 
